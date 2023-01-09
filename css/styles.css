@@ -1,6 +1,6 @@
 /* --START--BOX-SIZING AND REM CONFIG-- */
 html {
-    font-size: 150%; /* 1rem=24px */
+    font-size: 137.5%; /* 1rem=22px */
     box-sizing: border-box;
 }
 
@@ -10,13 +10,13 @@ html {
 
 @media (max-width: 920px) {
     html {
-        font-size: 137.5%; /* 1rem=22px */
+        font-size: 125%; /* 1rem=20px */
         }
 }
 
 @media (max-width: 480px) {
     html {
-    font-size: 125%; /* 1rem=20px */
+    font-size: 112.5%; /* 1rem=18px */
     }
 }
 
