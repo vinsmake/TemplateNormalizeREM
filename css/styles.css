@@ -1,26 +1,26 @@
 /* --START--BOX-SIZING AND REM CONFIG-- */
 html {
-    font-size: 137.5%; /* 1rem=22px */
+    font-size: 125%; /* 1rem=22px */
     box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
 }
 
 @media (max-width: 920px) {
     html {
-        font-size: 125%; /* 1rem=20px */
+        font-size: 112.5%; /* 1rem=18px */
         }
 }
 
 @media (max-width: 480px) {
     html {
-    font-size: 112.5%; /* 1rem=18px */
+    font-size: 100%; /* 1rem=16px */
     }
 }
 
 body {
     font-size: 1rem;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 /* --END--BOX-SIZING AND REM CONFIG-- */
