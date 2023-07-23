@@ -4,7 +4,7 @@ html {
     box-sizing: border-box;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1280px) {
     html {
         font-size: 112.5%; /* 1rem=18px */
         }
@@ -22,5 +22,9 @@ body {
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
 }
 /* --END--BOX-SIZING AND REM CONFIG-- */
